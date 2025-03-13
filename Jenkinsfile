@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out code...'
-                git 'https://github.com/Badamaranahalli123/PES1UG22AM081_jekins.git'
+                git branch: 'main', url: 'https://github.com/Badamaranahalli123/PES1UG22AM081_jekins.git'
             }
         }
 
